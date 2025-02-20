@@ -1,0 +1,4 @@
+~/Master/Planning/MADAGASCAR/M -o plan-M.txt domain.pddl problem.pddl
+~/Master/Planning/MADAGASCAR/Mp -o plan-Mp.txt domain.pddl problem.pddl
+~/Master/Planning/MADAGASCAR/MpC -o plan-MpC.txt domain.pddl problem.pddl
+

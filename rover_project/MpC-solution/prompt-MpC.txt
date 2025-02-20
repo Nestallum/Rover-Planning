@@ -1,0 +1,40 @@
+nassim@Ubuntu:~/Master/Planning/rover_project$ ~/Master/Planning/MADAGASCAR/MpC -o plan-MpC.txt domain.pddl problem.pdd
+l
+Madagascar 0.99999 19/02/2025 21:03:17 amd64 1-core (no VSIDS)
+Options: -o plan-MpC.txt file:domain.pddl file:problem.pddl
+Domain: rover-explorer
+Problem: rover-mission
+Parser: 222 ground actions and 229 state variables
+Invariants: 0 1 2 3 4 5 6 7 8  0.00 secs
+Goal: conjunctive
+Simplified: 76 ground actions and 36 state variables
+Actions: STRIPS
+Disabling graph %: 10 20 30 40 50 60 70 80 90 100 0.00 secs (max SCC size 1)
+Plan type: E-step
+                                Allocated 32 MB permanent (total 122 MB)
+Horizon 5: 596 variables
+5 UNSAT (0 decisions 0 conflicts)
+Horizon 7: 820 variables
+7 UNSAT (0 decisions 0 conflicts)
+Horizon 10: 1156 variables
+                                Allocated 32 MB (total 383 MB)
+10 UNSAT (6 decisions 6 conflicts)
+Horizon 14: 1604 variables
+14 UNSAT (21 decisions 21 conflicts)
+Horizon 20: 2276 variables
+Horizon 28: 3172 variables
+20 UNSAT (121 decisions 102 conflicts)
+Horizon 40: 4516 variables
+SAT (74 decisions 63 conflicts)
+PLAN FOUND: 28 steps
+34 actions in the plan.
+total time 0.00 preprocess 0.00 
+total size 0.746 GB
+max. learned clause length 35
+t val conflicts decisions
+5 0 0 0
+7 0 0 0
+10 0 6 6
+14 0 21 21
+20 0 102 121
+28 1 63 74

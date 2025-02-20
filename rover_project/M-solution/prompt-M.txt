@@ -1,0 +1,46 @@
+nassim@Ubuntu:~/Master/Planning/rover_project$ ~/Master/Planning/MADAGASCAR/M -o plan-M.txt domain.pddl problem.pddl
+Madagascar 0.99999 20/02/2025 22:28:06 amd64 1-core
+Options: -o plan-M.txt file:domain.pddl file:problem.pddl
+Domain: rover-explorer
+Problem: rover-mission
+Parser: 222 ground actions and 229 state variables
+Invariants: 0 1 2 3 4 5 6 7 8  0.00 secs
+Goal: conjunctive
+Simplified: 76 ground actions and 36 state variables
+Actions: STRIPS
+Disabling graph %: 10 20 30 40 50 60 70 80 90 100 0.00 secs (max SCC size 1)
+Plan type: E-step
+Heuristic: VSIDS
+                                Allocated 32 MB permanent (total 122 MB)
+Horizon 0: 36 variables
+0 UNSAT (0 decisions 0 conflicts)
+Horizon 5: 596 variables
+5 UNSAT (0 decisions 0 conflicts)
+Horizon 10: 1156 variables
+                                Allocated 32 MB (total 383 MB)
+10 UNSAT (4 decisions 2 conflicts)
+Horizon 15: 1716 variables
+15 UNSAT (65 decisions 35 conflicts)
+Horizon 20: 2276 variables
+Horizon 25: 2836 variables
+Horizon 30: 3396 variables
+Horizon 35: 3956 variables
+Horizon 40: 4516 variables
+20 UNSAT (732 decisions 317 conflicts)
+Horizon 45: 5076 variables
+Horizon 50: 5636 variables
+Horizon 55: 6196 variables
+SAT (1899 decisions 331 conflicts)
+PLAN FOUND: 30 steps
+35 actions in the plan.
+total time 0.07 preprocess 0.00 
+total size 1.120 GB
+max. learned clause length 314
+t val conflicts decisions
+0 0 0 0
+5 0 0 0
+10 0 2 4
+15 0 35 65
+20 0 317 732
+25 -1 463 1684
+30 1 331 1899
